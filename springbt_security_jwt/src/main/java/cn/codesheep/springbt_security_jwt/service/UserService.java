@@ -24,7 +24,7 @@ public class UserService implements UserDetailsService {
 
         User user = userRepository.findByUsername(s);
         if (user == null) {
-            throw new UsernameNotFoundException("用户不存在");
+            throw new UsernameNotFoundException("用户不222存在");
         }
         return user;
     }
