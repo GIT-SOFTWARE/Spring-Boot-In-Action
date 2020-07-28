@@ -16,7 +16,7 @@ public class TestController {
     @PreAuthorize("hasAuthority('ROLE_NORMAL')")
     @RequestMapping( value="/normal/test", method = RequestMethod.GET )
     public String test1() {
-        return "ROLE_NORMAL /normal/test接口调用成功！";
+        return "ROLE_NORMAL /normal/test接口调用成功333！";
     }
 
     // 测试管理员权限
